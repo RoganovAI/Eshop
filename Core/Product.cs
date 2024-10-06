@@ -13,7 +13,7 @@
             return "Получить список товаров(количество вводить через пробел)";
                 
         }
-        public static void Execute(int quantity = 0)
+        public static void Execute(int quantity)
         {
             int limit = quantity;
             int maxQuontity = 3;
